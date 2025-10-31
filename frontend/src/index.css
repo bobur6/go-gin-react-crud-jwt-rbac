@@ -1,0 +1,40 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: 
+    radial-gradient(circle at 20% 20%, rgba(99, 102, 241, 0.08), transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(236, 72, 153, 0.08), transparent 50%),
+    linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.25);
+}
+
