@@ -1,0 +1,16 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Go build artifacts
+/backend/bin/
+/backend/.cache/
+
+# Node build artefacts
+/frontend/node_modules/
+/frontend/build/
+
+# Environment
+.env
+/backend/.env
